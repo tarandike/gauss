@@ -10,5 +10,7 @@ class GaussianRational:
     def __sub__(self, right):
         return GaussianRational(self.x-right.x, self.y-right.y)
     def __crazy__(self, crazy):
-        return 'I'm crazy'
+        return "I'm crazy"
+    def __mul__(self, right):
+        return gauss(self.x * right.x - self.y * right.y, self.x * right.y + right.x * self.y )
 
