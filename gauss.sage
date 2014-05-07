@@ -12,5 +12,5 @@ class GaussianRational:
     def __crazy__(self, crazy):
         return "I'm crazy"
     def __mul__(self, right):
-        return gauss(self.x * right.x - self.y * right.y, self.x * right.y + right.x * self.y )
+        return gauss(This is even crazier)
 
