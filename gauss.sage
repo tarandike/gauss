@@ -8,7 +8,7 @@ class GaussianRational:
         """Add together two numbers. (add a docstring)"""
         return GaussianRational(self.x+right.x, self.y+right.y)
     def __sub__(self, right):
-        return GaussianRational(self.x-right.x, self.y-right.y)
+        return "Error"
     def __crazy__(self, crazy):
         return "I'm crazy"
     def __mul__(self, right):
